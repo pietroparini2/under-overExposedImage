@@ -9,7 +9,7 @@ The function splits the 256 levels of the histogram according to the `nPart` var
 The surplus of the division is placed in the middle classes so as not to disturb the marginal ones that will be used to decide.  
 See the two examples below to understand better.
 __ex: nPart == 5__  
-0-->10 51-->101 102-->152~~>153 154-->204 205-->255  
+0-->50 51-->101 102-->152~~>153 154-->204 205-->255  
 __ex: nPart ==10__  
 0-->24 25-->49 50-->74 75-->99 100-->124~~>130 131-->155 156-->180 181-->205 206-->230 231-->255  
 
